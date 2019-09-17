@@ -1,0 +1,12 @@
+#! /usr/bin/make -f
+#export DH_VERBOSE = 1
+#export PYBUILD_NAME = python3-couchdb
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_clean:
+	dh_clean
+	rm -rf tmp dist *.egg-info
+
+override_dh_auto_test:

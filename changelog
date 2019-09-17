@@ -1,0 +1,11 @@
+python3-couchdb (1.2-1) stable; urgency=medium
+
+  * Upstream release
+
+ -- aeris <aeris@cozycloud.cc>  Tue, 17 Sep 2019 12:32:31 +0200
+
+python3-couchdb (1.1-1) stable; urgency=medium
+
+  * Upstream realease
+
+ -- aeris <aeris@cozycloud.cc>  Mon, 16 Oct 2017 13:31:47 +0000

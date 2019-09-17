@@ -1,0 +1,7 @@
+*.log
+*.debhelper
+*.substvars
+*-stamp
+/python3-couchdb/
+/.debhelper/
+/files
